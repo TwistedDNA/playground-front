@@ -9,7 +9,7 @@ import { ProfileFormComponent } from './profile-form/profile-form.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileFormComponent
+    ProfileFormComponent,
   ],
   imports: [
     BrowserModule,
