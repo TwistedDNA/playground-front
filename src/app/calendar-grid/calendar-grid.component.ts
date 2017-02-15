@@ -1,13 +1,17 @@
 import {Component, OnInit} from '@angular/core';
+import {DateServiceService} from "../services/date-service.service";
 
 @Component({
              selector: 'app-calendar-grid',
+             providers: [DateServiceService],
              templateUrl: './calendar-grid.component.html',
              styleUrls: ['./calendar-grid.component.css']
            })
 export class CalendarGridComponent implements OnInit {
+  currentDate;
 
-  constructor() {
+  constructor(dateService: DateServiceService) {
+    this.currentDate = dateService.currentDate;
   }
 
   ngOnInit() {
