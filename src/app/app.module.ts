@@ -8,6 +8,7 @@ import { ProfileFormComponent } from './profile-form/profile-form.component';
 import { CalendarGridComponent } from './calendar-grid/calendar-grid.component';
 import { DayThumbnailComponent } from './day-thumbnail/day-thumbnail.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
+import { MenuComponent } from './top-menu/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
     ProfileFormComponent,
     CalendarGridComponent,
     DayThumbnailComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
